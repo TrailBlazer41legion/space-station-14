@@ -27,7 +27,7 @@ function updateSS14() {
 	git commit -m "Автообновление RobustToolbox";
 
 	echo "Updating Server...";
-	git pull origin master;
+	git pull origin main;
 	git pull fetch master;
 	git commit -m "Автообновление SS14";
 	#updateCorvaxRepo;
