@@ -35,7 +35,7 @@ function updateSS14() {
 	#cp Corvax-SS14/Resources/ServerInfo/Guidebook Resources/ServerInfo -r;
 	#git add .;
 	#git commit -m "Автообновление перевода от Corvax";
-	git push origin master;
+	git push origin main;
 };
 
 function buildServer() {
