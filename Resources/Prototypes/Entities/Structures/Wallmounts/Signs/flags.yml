@@ -41,6 +41,7 @@
   id: LGBTQFlag
   name: LGBTQ flag
   description: "Be gay do crime flag"
+  noSpawn: true
   components:
   - type: Sprite
     state: lgbtq_flag
