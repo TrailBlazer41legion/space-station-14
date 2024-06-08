@@ -29,11 +29,11 @@ function updateSS14() {
 	git pull origin main;
 	git pull fetch master;
 	git commit -m "Автообновление SS14";
-	#updateCorvaxRepo;
-	#cp Corvax-SS14/Resources/Locale/ru-RU Resources/Locale -r;
+	updateCorvaxRepo;
+	cp Corvax-SS14/Resources/Locale/ru-RU Resources/Locale -r;
 	#cp Corvax-SS14/Resources/ServerInfo/Guidebook Resources/ServerInfo -r;
-	#git add .;
-	#git commit -m "Автообновление перевода от Corvax";
+	git add .;
+	git commit -m "Автообновление перевода от Corvax";
 	git push origin main;
 };
 
