@@ -23,6 +23,7 @@ function updateRobustToolbox() {
 
 function updateSS14() {
 	updateRobustToolbox
+	git add .;
 	git commit -m "Автообновление RobustToolbox";
 
 	echo "Updating Server...";
