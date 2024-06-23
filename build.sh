@@ -1,9 +1,11 @@
 #!/bin/bash
 export EDITOR="/bin/micro";
+
 function updateCorvaxRepo() {
 	echo "Updating Corvax translations...";
 	cd Corvax-SS14/;
 	git pull origin master;
+	git submodule update --init --recursive;
 	cd ..;
 };
 
@@ -11,6 +13,7 @@ function updateMr0MaksRepo() {
 	echo "Updating Mr0maks translations...";
 	cd Mr0maks-SS14/;
 	git pull origin master;
+	git submodule update --init --recursive;
 	cd ..;
 };
 
@@ -23,6 +26,7 @@ function updateRobustToolbox() {
 
 function updateSS14() {
 	updateRobustToolbox
+	git submodule update --init --recursive;
 	git add .;
 	git commit -m "Автообновление RobustToolbox";
 
