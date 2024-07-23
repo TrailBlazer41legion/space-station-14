@@ -26,10 +26,8 @@ function updateRobustToolbox() {
 
 function updateSS14() {
 	updateRobustToolbox
-	git submodule update --init --recursive;
 	git add .;
 	git commit -m "Автообновление RobustToolbox";
-
 	echo "Updating Server...";
 	git pull origin main;
 	git pull fetch master;
@@ -40,6 +38,7 @@ function updateSS14() {
 	git add .;
 	git commit -m "Автообновление перевода от Corvax";
 	git push origin main;
+	git push --mirror ssh://git@github.com/MaxSMokeSkaarj/space-station-14
 };
 
 function buildServer() {
