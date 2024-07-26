@@ -14,7 +14,7 @@ VERSION = os.environ['GITHUB_SHA']
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "https://ss14.smokeofanarchy.ru/cdn"
+ROBUST_CDN_URL = "https://ss14.smokeofanarchy.ru/cdn/"
 FORK_ID = "SMoA"
 
 def main():
