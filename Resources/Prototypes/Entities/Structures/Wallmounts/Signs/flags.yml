@@ -13,7 +13,7 @@
   parent: BaseFlag
   id: BlankFlag
   name: blank flag
-  description: "Some piece of white cloth. Definitely not the flag of France."
+  description: Some piece of white cloth. Definitely not the flag of France.
   components:
   - type: Sprite
     state: blank_flag
@@ -22,7 +22,7 @@
   parent: BaseFlag
   id: NTFlag
   name: Nanotrasen flag
-  description: "Glory to NT! Wait, they really made a flag for a corporation?"
+  description: Glory to NT! Wait, they really made a flag for a corporation?
   components:
   - type: Sprite
     state: NT_flag
@@ -31,7 +31,7 @@
   parent: BaseFlag
   id: SyndieFlag
   name: syndicate flag
-  description: "Smells bloody. Death to NT!"
+  description: Smells bloody. Death to NT!
   components:
   - type: Sprite
     state: syndie_flag
@@ -40,8 +40,12 @@
   parent: BaseFlag
   id: LGBTQFlag
   name: LGBTQ flag
+<<<<<<< HEAD
   description: "Be gay do crime flag"
   noSpawn: true
+=======
+  description: "\"Be gay do crime\" flag."
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     state: lgbtq_flag
@@ -50,7 +54,7 @@
   parent: BaseFlag
   id: PirateFlag
   name: pirate flag
-  description: "Raise the jolly roger, scallywags!"
+  description: Raise the jolly roger, scallywags!
   components:
   - type: Sprite
     state: pirate_flag

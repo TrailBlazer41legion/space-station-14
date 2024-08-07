@@ -3,7 +3,7 @@
   id: ClothingNeckPinBase
   abstract: true
   name: pin
-  description: be nothing do crime
+  description: Be nothing do crime.
   components:
   - type: Item
     size: Tiny
@@ -12,8 +12,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckLGBTPin
   name: LGBT pin
+<<<<<<< HEAD
   description: be gay do crime
   noSpawn: true
+=======
+  description: Be gay do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -29,8 +33,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckAromanticPin
   name: aromantic pin
+<<<<<<< HEAD
   description: be aro do crime
   noSpawn: true
+=======
+  description: Be aro do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -46,8 +54,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckAsexualPin
   name: asexual pin
+<<<<<<< HEAD
   description: be ace do crime
   noSpawn: true
+=======
+  description: Be ace do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -63,8 +75,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckBisexualPin
   name: bisexual pin
+<<<<<<< HEAD
   description: be bi do crime
   noSpawn: true
+=======
+  description: Be bi do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -80,8 +96,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckIntersexPin
   name: intersex pin
+<<<<<<< HEAD
   description: be intersex do crime
   noSpawn: true
+=======
+  description: Be intersex do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -97,8 +117,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckLesbianPin
   name: lesbian pin
+<<<<<<< HEAD
   description: be lesbian do crime
   noSpawn: true
+=======
+  description: Be lesbian do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -131,8 +155,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckPansexualPin
   name: pansexual pin
+<<<<<<< HEAD
   description: be pan do crime
   noSpawn: true
+=======
+  description: Be pan do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -148,8 +176,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckTransPin
   name: transgender pin
+<<<<<<< HEAD
   description: be trans do crime
   noSpawn: true
+=======
+  description: Be trans do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -165,8 +197,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckAutismPin
   name: autism pin
+<<<<<<< HEAD
   description: be autism do crime
   noSpawn: true
+=======
+  description: Be autism do crime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/autismpin.rsi
@@ -182,8 +218,12 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckGoldAutismPin
   name: golden autism pin
+<<<<<<< HEAD
   description: be autism do warcrime
   noSpawn: true
+=======
+  description: Be autism do warcrime.
+>>>>>>> 6d0e915ebb7431bf0e7e0278c2c5b83118878523
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/goldautismpin.rsi
