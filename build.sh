@@ -1,5 +1,5 @@
 #!/bin/bash
-export EDITOR="/bin/micro";
+export EDITOR="/bin/nano";
 
 function updateCorvaxRepo() {
 	echo "Updating Corvax translations...";
