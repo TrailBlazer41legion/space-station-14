@@ -21,6 +21,7 @@ function updateRobustToolbox() {
 	echo "Updating RobustToolbox...";
 	cd RobustToolbox;
 	git pull origin master;
+	git fetch --tags origin master;
 	export LATEST_VERSION_RTB=$(git describe --tags --abbrev=0);
 	echo $LATEST_VERSION_RTB;
 	git checkout $LATEST_VERSION_RTB;
