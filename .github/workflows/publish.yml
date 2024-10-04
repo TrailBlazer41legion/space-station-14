@@ -3,7 +3,14 @@ name: Publish
 concurrency:
   group: publish
 
+<<<<<<< HEAD
 on: [push]
+=======
+on:
+  workflow_dispatch:
+  # schedule:
+   # - cron: '0 10 * * *'
+>>>>>>> 8b65186bfae66ffe1571236b3dce991f6e2e3fd6
 
 jobs:
   build:
