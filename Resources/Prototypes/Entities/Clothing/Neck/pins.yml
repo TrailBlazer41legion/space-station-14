@@ -16,7 +16,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckLGBTPin
   name: LGBT pin
-  description: Be gay do crime.
+  description: be gay do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: lgbt
@@ -27,7 +28,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckAromanticPin
   name: aromantic pin
-  description: Be aro do crime.
+  description: be aro do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: aro
@@ -38,7 +40,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckAsexualPin
   name: asexual pin
-  description: Be ace do crime.
+  description: be ace do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: asex
@@ -49,7 +52,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckBisexualPin
   name: bisexual pin
-  description: Be bi do crime.
+  description: be bi do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: bi
@@ -71,7 +75,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckIntersexPin
   name: intersex pin
-  description: Be intersex do crime.
+  description: be intersex do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: inter
@@ -82,7 +87,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckLesbianPin
   name: lesbian pin
-  description: Be lesbian do crime.
+  description: be lesbian do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: les
@@ -94,6 +100,7 @@
   id: ClothingNeckNonBinaryPin
   name: non-binary pin
   description: "01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101"
+  noSpawn: true
   components:
   - type: Sprite
     state: non
@@ -104,7 +111,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckPansexualPin
   name: pansexual pin
-  description: Be pan do crime.
+  description: be pan do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: pan
@@ -115,7 +123,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckTransPin
   name: transgender pin
-  description: Be trans do crime.
+  description: be trans do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: trans
@@ -126,7 +135,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckAutismPin
   name: autism pin
-  description: Be autism do crime.
+  description: be autism do crime
+  noSpawn: true
   components:
   - type: Sprite
     state: autism
@@ -137,7 +147,8 @@
   parent: ClothingNeckPinBase
   id: ClothingNeckGoldAutismPin
   name: golden autism pin
-  description: Be autism do warcrime.
+  description: be autism do warcrime
+  noSpawn: true
   components:
   - type: Sprite
     state: goldautism
