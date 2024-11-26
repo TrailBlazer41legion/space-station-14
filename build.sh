@@ -34,6 +34,6 @@ function buildServer() {
 
 };
 
-
-updateSS14
-buildServer
+eval $1
+#updateSS14
+#buildServer
