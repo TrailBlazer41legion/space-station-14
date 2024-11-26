@@ -1,13 +1,16 @@
 import { exec, spawn } from 'node:child_process';
-import http from 'node:http';
+import * as path from 'node:path';
+import { request } from 'node:https';
 import { Buffer } from 'node:buffer';
 
-const ROBUST_CDN_URL = "https://ss14.smokeofanarchy.ru/cdn/";
-const FORK_ID = "SMoA";
+const RobustCDNURLStr = 'https://ss14.smokeofanarchy.ru/cdn';
+const ForkID = 'SMoA';
 
-const RELEASE_DIR = "release";
+const ReleaseDir = 'release';
 
-const PUBLISH_TOKEN = process.env.PUBLISH_TOKEN
+const PublishToken = process.env.PUBLISH_TOKEN;
+
+const RobustCDNURL = new URL(RobustCDNURLStr);
 
 const getEngineVersion = () => {
     return new Promise( (res,rej) => {
@@ -19,7 +22,7 @@ const getEngineVersion = () => {
             res(stdout);
         });
     });
-}
+};
 
 const getVersion = () => {
     return new Promise( (res,rej) => {
@@ -27,7 +30,7 @@ const getVersion = () => {
             if (err) {
                 console.error(err);
                 rej(err);
-            }
+            };
             res(stdout);
         });
     });
@@ -35,19 +38,65 @@ const getVersion = () => {
 
 const getFilesToPublish = () => {
     return new Promise( (res,rej) => {
-        exec(`cd ${RELEASE_DIR} && ls`, (err, stdout, stderr) => {
+        exec(`cd ${ReleaseDir} && ls`, (err, stdout, stderr) => {
             if (err) {
                 console.error(err);
                 rej(err);
-            }
+            };
             res(stdout);
         });
     });
 };
 
-const VERSION = await getVersion();
-const ENGINE_VERSION = await getEngineVersion();
+const repoSHA = await getVersion();
+const engineVersion = await getEngineVersion();
+const FilesToUpload = (await getFilesToPublish()).split('\n').filter( (file) => {return file});
 
-console.log(await getFilesToPublish());
+const headers = {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${PublishToken}`,
+}
 
+const optionsStart = {
+    hostname: RobustCDNURL.host.split(':')[0],
+    port: RobustCDNURL.port,
+    path: `${RobustCDNURL.pathname}/fork/${ForkID}/publish/start`,
+    method: 'POST',
+    headers,
+};
+
+const optionsFile = {
+    hostname: RobustCDNURL.host.split(':')[0],
+    port: RobustCDNURL.port,
+    path: `${RobustCDNURL.pathname}/fork/${ForkID}/publish/file`,
+    method: 'POST',
+    headers,
+};
+
+const optionsFinish = {
+    hostname: RobustCDNURL.host.split(':')[0],
+    port: RobustCDNURL.port,
+    path: `${RobustCDNURL.pathname}/fork/${ForkID}/publish/finish`,
+    method: 'POST',
+    headers,
+};
+
+const data = {
+    "version": repoSHA.trim(),
+    "engineVersion": engineVersion.trim()
+}
+
+const req = request(optionsStart, (res) => {
+    console.log('statusCode:', res.statusCode);
+    console.log('headers:', res.headers);
+    res.on('data', (d) => {
+        //d = JSON.parse(d.toString())
+        console.log(d.toString());
+    });
+});
+req.write(JSON.stringify(data));
+req.on('error', (e) => {
+    console.error(e);
+});
+req.end();
 
