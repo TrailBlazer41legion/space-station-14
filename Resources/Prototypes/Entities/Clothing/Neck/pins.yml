@@ -17,7 +17,6 @@
   id: ClothingNeckLGBTPin
   name: LGBT pin
   description: be gay do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: lgbt
@@ -29,7 +28,6 @@
   id: ClothingNeckAromanticPin
   name: aromantic pin
   description: be aro do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: aro
@@ -41,7 +39,6 @@
   id: ClothingNeckAsexualPin
   name: asexual pin
   description: be ace do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: asex
@@ -53,7 +50,6 @@
   id: ClothingNeckBisexualPin
   name: bisexual pin
   description: be bi do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: bi
@@ -76,7 +72,6 @@
   id: ClothingNeckIntersexPin
   name: intersex pin
   description: be intersex do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: inter
@@ -88,7 +83,6 @@
   id: ClothingNeckLesbianPin
   name: lesbian pin
   description: be lesbian do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: les
@@ -100,7 +94,6 @@
   id: ClothingNeckNonBinaryPin
   name: non-binary pin
   description: "01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101"
-  noSpawn: true
   components:
   - type: Sprite
     state: non
@@ -112,7 +105,6 @@
   id: ClothingNeckPansexualPin
   name: pansexual pin
   description: be pan do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: pan
@@ -124,19 +116,17 @@
   id: ClothingNeckTransPin
   name: transgender pin
   description: be trans do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: trans
   - type: Clothing
     equippedPrefix: trans
- 
+
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAutismPin
   name: autism pin
   description: be autism do crime
-  noSpawn: true
   components:
   - type: Sprite
     state: autism
@@ -148,7 +138,6 @@
   id: ClothingNeckGoldAutismPin
   name: golden autism pin
   description: be autism do warcrime
-  noSpawn: true
   components:
   - type: Sprite
     state: goldautism
