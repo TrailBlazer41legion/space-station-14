@@ -120,7 +120,7 @@
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerElectrical
-  suffix: "Electrical"
+  suffix: "Pyro"
   components:
     - type: PyroclasticAnomaly
     - type: TempAffectingAnomaly
@@ -135,7 +135,7 @@
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerPyro
-  suffix: "Pyro"
+  suffix: "Electrical"
   components:
   - type: ElectricityAnomaly
   - type: Electrified

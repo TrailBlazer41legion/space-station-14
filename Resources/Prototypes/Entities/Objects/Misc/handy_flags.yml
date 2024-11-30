@@ -38,7 +38,6 @@
   parent: BaseItem
   id: LGBTQHandyFlag
   name: LGBTQ handheld flag
-  noSpawn: true
   description: "The be gay do crime handy flag."
   components:
   - type: Sprite
