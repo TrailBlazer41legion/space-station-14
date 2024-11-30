@@ -122,8 +122,8 @@
   id: MobBehonkerElectrical
   suffix: "Electrical"
   components:
-    - type: ElectricityAnomaly
-    - type: Electrified
+  - type: ElectricityAnomaly
+  - type: Electrified
 
 - type: entity
   name: behonker
@@ -131,7 +131,7 @@
   id: MobBehonkerPyro
   suffix: "Pyro"
   components:
-  - type: PyroclasticAnomaly
+    - type: PyroclasticAnomaly
     - type: TempAffectingAnomaly
       tempChangePerSecond: 25
       hotspotExposeTemperature: 1000
@@ -139,6 +139,7 @@
       releasedGas: 3
       releaseOnMaxSeverity: true
       spawnRadius: 0
+
 
 - type: entity
   name: behonker
