@@ -1,7 +1,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyDominion
-  name: Rise and Revolution!!!
+  name: Ключ шифрования Доминиона
   description: Если ты нашел этот ключ - советую выбросить подальше из-за возможных неприятностей.
   noSpawn: true
   components:
