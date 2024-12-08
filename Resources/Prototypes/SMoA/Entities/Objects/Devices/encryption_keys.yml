@@ -1,9 +1,10 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyDominion
+  suffix: Кастом
   name: Ключ шифрования Доминиона
   description: Если ты нашел этот ключ - советую выбросить подальше из-за возможных неприятностей.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: EncryptionKey
     channels:
