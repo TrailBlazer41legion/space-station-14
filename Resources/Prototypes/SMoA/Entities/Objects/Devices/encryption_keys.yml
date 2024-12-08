@@ -1,0 +1,15 @@
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyDominion
+  name: Rise and Revolution!!!
+  description: Если ты нашел этот ключ - советую выбросить подальше из-за возможных неприятностей.
+  noSpawn: true
+  components:
+  - type: EncryptionKey
+    channels:
+    - Dominion
+    defaultChannel: Dominion
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: pirate_label
