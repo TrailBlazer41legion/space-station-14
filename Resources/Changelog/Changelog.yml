@@ -1,33 +1,4 @@
 ﻿Entries:
-- author: coolsurf6
-  changes:
-  - message: Increased the maximum number of reptilian chest markings to 3.
-    type: Tweak
-  id: 7193
-  time: '2024-08-23T14:24:06.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30786
-- author: FATFSAAM2
-  changes:
-  - message: Added 3 new voicelines for the boxer figurine.
-    type: Add
-  id: 7194
-  time: '2024-08-24T00:10:10.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31382
-- author: Winkarst-cpu
-  changes:
-  - message: The damage dealt by the folded chair can now be inspected.
-    type: Fix
-  id: 7195
-  time: '2024-08-24T00:16:26.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31378
-- author: EmoGarbage404
-  changes:
-  - message: The mining asteroid dungeons now spawn with more equipment, scrap, and
-      treasure in them.
-    type: Add
-  id: 7196
-  time: '2024-08-24T02:06:38.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31290
 - author: EmoGarbage404
   changes:
   - message: The salvage magnet can now pull in large chunks of space debris. Be wary
@@ -3913,3 +3884,36 @@
   id: 7692
   time: '2024-12-09T08:54:23.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/33348
+- author: ScarKy0
+  changes:
+  - message: You can now pet the AI Core.
+    type: Add
+  id: 7693
+  time: '2024-12-09T16:10:13.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33788
+- author: joshepvodka
+  changes:
+  - message: Added flavor profiles to beverages that missed them.
+    type: Add
+  - message: Tweaked some drink flavor profiles.
+    type: Tweak
+  - message: Soda/Booze dispenser will now always eject the shaker/glass before any
+      bottle or jug.
+    type: Tweak
+  id: 7694
+  time: '2024-12-09T17:12:57.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33505
+- author: ArtisticRoomba
+  changes:
+  - message: SMES now gives visual feedback for if the maintenance panel is open.
+    type: Fix
+  id: 7695
+  time: '2024-12-10T10:00:18.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33808
+- author: metalgearsloth
+  changes:
+  - message: Fix blank newlines on examine tooltips (e.g. tables).
+    type: Fix
+  id: 7696
+  time: '2024-12-10T13:45:20.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33813
