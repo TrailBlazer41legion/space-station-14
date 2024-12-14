@@ -1,8 +1,8 @@
-guidebook-window-title = Руководство
+guidebook-window-title = Учебник
 guidebook-placeholder-text = Выберите запись.
-guidebook-placeholder-text-2 = Если вы новичок, то начните с записи "Новичок? Вам сюда!".
-guidebook-filter-placeholder-text = Фильтр
+guidebook-placeholder-text-2 = Если Вы новичок, выберите самую верхнюю запись, чтобы начать.
+guidebook-filter-placeholder-text = Поиск по фильтру.
 guidebook-parser-error = Parser Error
 guidebook-error-message = Error Message
-guidebook-monkey-unspin = Отперевернуть обезьяну
-guidebook-monkey-disco = Диско обезьяна
+guidebook-monkey-unspin = Раскрутить Обезьяну
+guidebook-monkey-disco = Диско Обезьяна

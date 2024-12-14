@@ -33,11 +33,11 @@ player-first-join-message = Игрок { $name } зашёл на сервер в
 # Displayed in chat to admins when a player leaves
 player-leave-message = Игрок { $name } вышел!
 latejoin-arrival-announcement =
-    { $character } ({ $job }) { GENDER($entity) ->
+    { $character } ({ $job }) { $gender ->
         [male] прибыл
         [female] прибыла
         [epicene] прибыли
-       *[neuter] прибыло
+       *[neuter] прибыл
     } на станцию!
 latejoin-arrival-announcement-special = { $job } { $character } на палубе!
 latejoin-arrival-sender = Станции
@@ -49,4 +49,4 @@ preset-not-enough-ready-players = Не удалось запустить пре�
 preset-no-one-ready = Не удалось запустить режим { $presetName }. Нет готовых игроков.
 game-run-level-PreRoundLobby = Предраундовое лобби
 game-run-level-InRound = В раунде
-game-run-level-PostRound = После раунда
+game-run-level-PostRound = Пост-раунд

@@ -1,7 +1,7 @@
 forensic-fibers = { LOC($material) } волокна
 forensic-fibers-colored = { LOC($color) } { LOC($material) } волокна
 fibers-insulative = изолирующие
-fibers-insulative-frayed = протёртые изолирующие
+fibers-insulative-frayed = потёртые изолирующие
 fibers-synthetic = синтетические
 fibers-leather = кожаные
 fibers-durathread = дюратканевые

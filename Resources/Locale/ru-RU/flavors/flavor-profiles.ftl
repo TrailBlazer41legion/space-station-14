@@ -114,7 +114,7 @@ flavor-complex-corn = как кукуруза
 flavor-complex-banana = как бананы
 flavor-complex-apple = как яблоки
 flavor-complex-cotton = как хлопок
-flavor-complex-bungo = как тропическая сладость
+flavor-complex-bungo = как бунго
 flavor-complex-raisins = как сушёный виноград
 flavor-complex-orange = как апельсины
 flavor-complex-watermelon = как арбуз
@@ -180,9 +180,9 @@ flavor-complex-violets = как фиалки
 flavor-complex-pyrotton = как горящий рот
 flavor-complex-mothballs = как нафталиновые шарики
 flavor-complex-paint-thinner = как растворитель для краски
-flavor-complex-numbing-tranquility = как оцепенелое спокойствие
+flavor-complex-numbing-tranquility = как ошеломляющее спокойствие
 flavor-complex-true-nature = как истинная природа реальности
-flavor-complex-false-meat = как не совсем не мясо
+flavor-complex-false-meat = не совсем похоже на мясо
 flavor-complex-paper = как кашеобразная масса
 flavor-complex-compressed-meat = как спрессованное мясо
 flavor-complex-alcohol = как алкоголь
@@ -272,6 +272,7 @@ flavor-complex-antifreeze = как тепло
 flavor-complex-pilk = как сладкое молоко
 
 # Medicine/chemical-specific flavors.
+
 
 ## Generic flavors.
 
