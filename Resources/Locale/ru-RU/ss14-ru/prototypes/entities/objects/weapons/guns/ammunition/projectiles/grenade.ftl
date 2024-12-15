@@ -1,6 +1,6 @@
-ent-PelletClusterRubber = гранула (шар, резиновая)
+ent-PelletClusterRubber = шрапнель (шарик, резиновый)
     .desc = { ent-BaseBullet.desc }
-ent-PelletClusterLethal = гранула (шар, летальная)
+ent-PelletClusterLethal = шрапнель (шарик, летальный)
     .desc = { ent-BaseBullet.desc }
-ent-PelletClusterIncendiary = гранула (шар, зажигательная)
+ent-PelletClusterIncendiary = шрапнель (шарик, зажигательный)
     .desc = { ent-BaseBulletIncendiary.desc }

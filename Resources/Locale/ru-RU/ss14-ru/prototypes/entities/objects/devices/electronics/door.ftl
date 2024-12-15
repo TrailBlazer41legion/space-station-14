@@ -1,2 +1,2 @@
 ent-DoorElectronics = микросхема шлюза
-    .desc = Микросхема, используемая в дверях и шлюзах.
+    .desc = { ent-BaseItem.desc }

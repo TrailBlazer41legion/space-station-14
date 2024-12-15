@@ -1,6 +1,6 @@
-ent-BaseMobJaunt = прогулка
-    .desc = Здесь сохранились слабые следы человекоподобной фигуры
-    .suffix = Эфирная
-ent-EtherealJaunt = прогулка
-    .suffix = Волшебник
+ent-BaseMobJaunt = прыжок
+    .desc = Здесь сохранились слабые следы гуманоидной фигуры.
+    .suffix = Эфирный
+ent-EtherealJaunt = прыжок
+    .suffix = Волшебный
     .desc = { ent-BaseMobJaunt.desc }

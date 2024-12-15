@@ -1,2 +1,2 @@
-ent-MobVox = Уриститити МакВокс
+ent-MobVox = Уристистист МакВокс
     .desc = { ent-BaseMobVox.desc }

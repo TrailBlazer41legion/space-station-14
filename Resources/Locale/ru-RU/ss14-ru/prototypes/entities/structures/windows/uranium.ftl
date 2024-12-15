@@ -3,5 +3,5 @@ ent-UraniumWindow = урановое окно
 ent-UraniumWindowDirectional = направленное урановое окно
     .desc = Смотри не заляпай.
 ent-UraniumWindowDiagonal = { ent-UraniumWindow }
-    .suffix = Диагональное
+    .suffix = Диагональ
     .desc = { ent-UraniumWindow.desc }

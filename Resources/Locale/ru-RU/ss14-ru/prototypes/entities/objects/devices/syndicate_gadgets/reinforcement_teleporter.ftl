@@ -1,17 +1,23 @@
-ent-ReinforcementRadio = радио подкрепления синдиката
-    .desc = Вызывает к Вам агента крайне сомнительного качества, мгновенно! Предоставляется только основное оборудование.
-ent-ReinforcementRadioSyndicate = радио подкрепления синдиката
-    .desc = Вызывает к Вам агента крайне сомнительного качества, мгновенно!
-ent-ReinforcementRadioSyndicateNukeops = радио ядерного оперативника
+ent-ReinforcementRadio = радио подкрепления Синдиката
+    .desc = Призовите на помощь агента Синдиката сомнительного качества, мгновенно! Предоставляется только базовое снаряжение.
+# Corvax-HiddenDesc-Start
+ent-ReinforcementRadioSyndicate = старое радио
+    .suffix = радио подкрепления Cиндиката
+    .desc = Винтажное радио с незнакомыми частотами.
+ent-ReinforcementRadioSyndicateNukeops = { ent-ReinforcementRadioSyndicate }
     .suffix = Радио подкрепления ЯО, Ядерный Оперативник
-    .desc = Вызывает к Вам ядерного оперативника крайне сомнительного качества, мгновенно! Базовое снаряжение ядерного оперативника включено.
+    .desc = { ent-ReinforcementRadioSyndicate.desc }
 ent-ReinforcementRadioSyndicateAncestor = телепорт подкрепления генетическим предком Синдиката
     .desc = Призывает на помощь специально обученного предка по вашему выбору.
 ent-ReinforcementRadioSyndicateAncestorNukeops = { ent-ReinforcementRadioSyndicateAncestor }
     .suffix = Ядерные оперативники
     .desc = { ent-ReinforcementRadioSyndicateAncestor.desc }
-ent-ReinforcementRadioSyndicateSyndiCat = радио подкрепления синдикота
-    .desc = Призовите на помощь верного дрессированного кота с микробомбой.
-ent-ReinforcementRadioSyndicateCyborgAssault = радио подкрепления штурмового киборга синдиката
+ent-ReinforcementRadioSyndicateSyndiCat = телепорт подкрепления Синдикота
+    .desc = Призывает на помощь верного дрессированного кота с микробомбой.
+ent-ReinforcementRadioSyndicateCyborgAssault = { ent-ReinforcementRadioSyndicate }
+    .suffix = радио подкрепления штурмового киборга Синдиката
     .desc = Призовите хорошо вооружённого штурмового киборга, немедленно!
     .suffix = Ядерные оперативники
+
+# Corvax-HiddenDesc-End
+

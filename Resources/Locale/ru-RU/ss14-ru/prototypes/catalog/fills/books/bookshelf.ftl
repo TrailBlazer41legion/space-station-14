@@ -1,3 +1,3 @@
 ent-BookshelfFilled = { ent-Bookshelf }
-    .suffix = Наполнен случайно
+    .suffix = Заполненный, Случайный
     .desc = { ent-Bookshelf.desc }

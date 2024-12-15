@@ -1,4 +1,4 @@
 ent-SpiderWeb = паутина
     .desc = Она вязкая и липкая.
-ent-SpiderWebClown = паутина паука-клоуна
+ent-SpiderWebClown = клоунская паутина
     .desc = Она вязкая и скользкая.

@@ -1,7 +1,7 @@
 ent-BasePortal = блюспейс портал
-    .desc = Переносит вас в связанное место назначения!
+    .desc = Выглядит как приключение на 5 минут!
 ent-PortalRed = { ent-BasePortal }
-    .desc = Этот выглядит больше как редспейс портал.
+    .desc = Этот больше похож на редспейс портал.
 ent-PortalBlue = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }
 ent-PortalArtifact = { ent-BasePortal }
